@@ -76,7 +76,7 @@ input[type="text"] {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(163, 233, 233, 0.7);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -99,7 +99,7 @@ input[type="text"] {
 .single-meal-info {
   margin: 20px;
   padding: 10px;
-  border: 2px dashed #000000;
+  border: 2px dashed #c7f7ef;
   font-weight: bold;
   font-size: 2rem;
 }
