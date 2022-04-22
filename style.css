@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Combo&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
 * {
   box-sizing: border-box;
 }
 body {
-  font-family: "roboto", cursive;
+  font-family: "squarepeg", cursive;
   background-color: #fafafa;
   color: #000000;
   margin: 0;
