@@ -3,10 +3,10 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "squarepeg", cursive;
-  background-color: #fafafa;
-  color: #000000;
-  margin: 0;
+    font-family: 'Square Peg', cursive;
+    background-color: #fafafa;
+    color: #000000;
+    margin: 0;
 }
 .footer{
     padding: 20px;
