@@ -60,9 +60,7 @@ function getMealByID(mealID) {
         addMealToDom(meal);
       });
   }
-
-  
-//add meal to dom
+  //add meal to dom
 function addMealToDom(meal) {
     const ingredients = [];
     for (let i = 1; i <= 20; i++) {
@@ -105,4 +103,3 @@ function addMealToDom(meal) {
       getMealByID(mealID);
     }
   });
-  
