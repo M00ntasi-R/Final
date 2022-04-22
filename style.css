@@ -3,9 +3,9 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Combo", cursive;
-  background-color: #a7c5eb;
-  color: #cd5d7d;
+  font-family: "Roboto", cursive;
+  background-color: #00122b;
+  color: #ffffff;
   margin: 0;
 }
 .footer{
@@ -99,7 +99,7 @@ input[type="text"] {
 .single-meal-info {
   margin: 20px;
   padding: 10px;
-  border: 2px dashed #cd5d7d;
+  border: 2px dashed #000000;
   font-weight: bold;
   font-size: 2rem;
 }
