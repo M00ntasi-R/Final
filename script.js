@@ -37,5 +37,27 @@ function searchMeal(e) {
     search.value = "";
   } else {
     resultHeading.innerHTML = "<h2>Please type in the keywords to search</h2>";
-  }
+  } 
 }
+//getch meal by id
+function getMealByID(mealID) {
+    fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${mealID}`)
+      .then((res) => res.json())
+      .then((data) => {
+        const meal = data.meals[0];
+        addMealToDom(meal);
+      });
+  }
+  //fetch random meal
+  function randomMeal() {
+    //clear meals and heading
+    mealsEl.innerHTML = "";
+    resultHeading.innerHTML = "";
+    fetch(`https://www.themealdb.com/api/json/v1/1/random.php`)
+      .then((res) => res.json())
+      .then((data) => {
+        const meal = data.meals[0];
+        addMealToDom(meal);
+      });
+  }
+  
